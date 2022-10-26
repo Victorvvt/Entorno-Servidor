@@ -7,6 +7,7 @@ if(preg_match("/^[a-zA-Z]{15}$/",$_POST['name'])){
  exit();
 }else{
     echo "NOMBE: ". $name."</br>";
+    
 }
  
 //Get the last name

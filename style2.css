@@ -1,0 +1,79 @@
+body {
+    width: 100%;
+    background-color: lightsteelblue;
+
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+.main {
+    margin-left: 3%;
+    margin-top: 100px;
+
+}
+
+.title {
+    min-width: 300px;
+    max-width: 550px;
+    text-align: center;
+    background-color: rgb(102, 112, 153);
+    grid-template-columns: 100px auto;
+    margin: 10px;
+    padding: 0 10px;
+    border: solid 2px rgb(246, 246, 248);
+
+}
+
+.grid-container {
+    min-width: 300px;
+    max-width: 550px;
+    display: grid;
+    background-color: rgb(102, 112, 153);
+    grid-template-columns: 100px auto;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px rgb(255, 255, 255);
+}
+
+input,
+textarea {
+    background-color: rgb(231, 240, 240);
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: rgb(18, 3, 132);
+
+}
+
+button {
+    background-color: rgb(233, 240, 240);
+    width: 40%;
+    height: 100%;
+}
+
+.name {
+    background-color: none;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.controls {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    grid-column: 3/12;
+}
+
+.direccion {
+    min-width: 300px;
+    max-width: 550px;
+    height: 200px;
+}
